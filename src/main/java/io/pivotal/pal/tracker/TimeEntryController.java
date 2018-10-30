@@ -16,7 +16,7 @@ public class TimeEntryController {
         this.timeEntryRepository = timeEntryRepository;
     }
 
-    @PostMapping()
+    @PostMapping("")
     public ResponseEntity<TimeEntry> create(@RequestBody TimeEntry timeEntryToCreate) {
         return new ResponseEntity<>(timeEntryRepository.create(timeEntryToCreate), HttpStatus.CREATED);
     }
@@ -29,7 +29,7 @@ public class TimeEntryController {
         }
         return new ResponseEntity<>(timeEntry, HttpStatus.NOT_FOUND);
     }
-    @GetMapping()
+    @GetMapping("")
     public ResponseEntity<List<TimeEntry>> list() {
 
         return new ResponseEntity<>(timeEntryRepository.list(), HttpStatus.OK);
