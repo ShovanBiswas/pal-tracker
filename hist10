@@ -1,0 +1,500 @@
+   16  ls -l
+   17  pwd
+   18  ls -la
+   19  git remote -v
+   20  git remote add origin https://github.com/ShovanBiswas/pal-tracker
+   21  git remote -v
+   22  pwd
+   23  gradle wrapper
+   24  ls -la
+   25  touch build.gradle
+   26  ls -l
+   27  pwd
+   28  ls -l
+   29  ls -la
+   30  cat .gitignore
+   31  ls -la
+   32  pwd
+   33  ls -l
+   34  ls -la
+   35  pwd
+   36  cf --help
+   37  cf login --help
+   38  pwd
+   39  cf login
+   40  ls -l
+   41  ls -l build/libs
+   42  cf push --help
+   43  ls -l
+   44  ls -l build
+   45  ls -l build/lib
+   46  ls -l build/libs
+   47  cf push pal-tracker -p ./build/libs/pal-tracker.jar --random-route
+   48  cf apps
+   49  pwd
+   50  ls -l
+   51  find / -name "his*" -print 2
+   52  find / -name "his*" -print 2> /dev/null
+   53  pwd
+   54  history > hist3
+   55  vi hist3
+   56  java -version
+   57  pwd
+   58  ls -l
+   59  ls -al
+   60  rm -r .idea
+   61  pwd
+   62  ls -l
+   63  cf push pal-tracker -p /Users/pal/workspace/pal-tracker/build/libs/pal-tracker.jar
+   64  cf logs
+   65  cf logs pal-tracker --recent
+   66  cd login --skip-ssl-validation
+   67  cf login --skip-ssl-validation
+   68  cf push pal-tracker -p /Users/pal/workspace/pal-tracker/build/libs/pal-tracker.jar
+   69  cf logs
+   70  cf logs pal-tracker
+   71  cf set-env --help
+   72  cf set-env pal-tracker WELCOME_MESSAGE "Hello Cloud Foundry"
+   73  cf restage pal-tracker
+   74  cf scale pal-tracker
+   75  cf scale --help
+   76  cf scale pal-tracker -m 512M -f
+   77  cf scale pal-tracker -m 2GB -f
+   78  vmunix
+   79  cf scale
+   80  cf scale pal-tracker
+   81  cf app pal-tracker
+   82  cf scale -i 2
+   83  cf scale pal-tracker -i 2
+   84  cf app pal-tracker
+   85  cf app pal-tracker
+   86  cf --help
+   87  cf app pal-tracker
+   88  pwd
+   89  ls -l
+   90  pwd
+   91  vi manifest.yml
+   92  ls -l
+   93  cat man*
+   94  cf --help
+   95  cf pal-tracker delete
+   96  cf delete
+   97  cf help -a
+   98  cf help delete
+   99  cf delete pal-tracker -r
+  100  pwd
+  101  ls -l
+  102  pwd
+  103  history
+  104  cf push pal-tracker -p /Users/pal/workspace/pal-tracker/build/libs/pal-tracker.jar
+  105  cat man*
+  106  vi man*
+  107  ls -l
+  108  cf unmap-route
+  109  cf unmap-route pal-tracker
+  110  cf unmap-route pal-tracker http://pal-tracker-optimistic-turtle.apps.pikes.pal.pivotal.io
+  111  cf unmap-route pal-tracker pal-tracker-optimistic-turtle.apps.pikes.pal.pivotal.io
+  112  cf apps
+  113  cf unmap-route pal-tracker-optimistic-turtle.apps.pikes.pal.pivotal.io
+  114  cf unmap-route pal-tracker domain pal-tracker-optimistic-turtle.apps.pikes.pal.pivotal.io
+  115  cf unmap-route pal-tracker pal-tracker-optimistic-turtle.apps.pikes.pal.pivotal.io
+  116  cf check-route pal-tracker-shovan apps.pikes.pal.pivotal.io
+  117  cf map-route pal-tracker pal-tracker-shovan
+  118  cf map-route --help
+  119  cf map-route pal-tracker  apps.pikes.pal.pivotal.io --hostname pal-tracker-shovan
+  120  pwd
+  121  cd ../ass*
+  122  pwd
+  123  ./gradlew cloudNativeDeveloperCloudFoundry -PserverUrl=pal-tracker-shovan.apps.pikes.pal.pivotal.io
+  124  ./gradlew cloudNativeDeveloperCloudFoundry -PserverUrl=http://pal-tracker-shovan.apps.pikes.pal.pivotal.io
+  125  ls -l
+  126  pwd
+  127  find / -name "his*" -print 2> /dev null
+  128  find / -name "his*" -print 2> /dev/null
+  129  pwd
+  130  cd ..
+  131  ls -l
+  132  pwd
+  133  cd
+  134  pwd
+  135  ls -l
+  136  cd dev
+  137  ls -l
+  138  cd tomee
+  139  ls -l
+  140  cd
+  141  pwd
+  142  ls -l
+  143  cd w*
+  144  ls -l
+  145  cd ass*
+  146  ls -l
+  147  cd ../pal*
+  148  ls -l
+  149  cd ../a*
+  150  pwd
+  151  ls -l
+  152  pwd
+  153  mv hist01 ..
+  154  ls -l
+  155  cd 
+  156  ls -l
+  157  pwd
+  158  cd w*
+  159  ls -l
+  160  cd pal*
+  161  ls -l
+  162  pwd
+  163  mv his* ..
+  164  cd ..
+  165  pwd
+  166  ls -l
+  167  vi hist01
+  168  vi hist01
+  169  pwd
+  170  cd 
+  171  ls -la
+  172  vi .bashrc
+  173  cd w*
+  174  ls -l
+  175  vi hist01
+  176  mv his02 hist02
+  177  ls -l
+  178  mv hist3 hist03
+  179  ls -l
+  180  mv history_bak
+  181  mkdir history_bak
+  182  ls -l
+  183  mv hist0? history_bak
+  184  ls -l hist*
+  185  ls -l
+  186  cd hist*
+  187  ls -l
+  188  cp hist01 hist01_cf
+  189  vi hist01_cf
+  190  ls -l
+  191  cat hist01_cf
+  192  cp hist02 hist02_cf
+  193  vi hist02_cf
+  194  ls -l\
+  195  ls -l\
+  196  ls -l
+  197  cp hist03 hist03_cf
+  198  vi hist03_cf
+  199  ls -l
+  200  history > hist04
+  201  vls -l\
+  202  ls -l
+  203  vi hist04
+  204  ls -l
+  205  cp hist04 hist04_cf
+  206  ls -l
+  207  vi hist04_cf
+  208  ls -l
+  209  cat hist01_cf hist02_cf hist03_cf hist04_cf > history_cf
+  210  vi history_cf
+  211  sort history_cf > history_cf.sort
+  212  vi history_cf.sort
+  213  vi history_cf
+  214  vi hist01_cf
+  215  vi hist01_cf
+  216  vi history_cf
+  217  sort history_cf > history_cf.sort
+  218  vi history_cf.sort
+  219  ls -l
+  220  pwd
+  221  pwd
+  222  vi history_cf.sort
+  223  vi history_cf.sort
+  224  ls -l
+  225  vi history_cf.sort
+  226  sendmail
+  227  sendmail -v
+  228  mail -v
+  229  mail ssmith323@gmail.com -m "test"
+  230  clear
+  231  ls
+  232  mail -a history_cf.sort -s "Backup" ssmith323@gmail.com
+  233  pwd
+  234  cd ../as*
+  235  pwd
+  236  cd ..
+  237  pwd
+  238  ls -la
+  239  cd pal-tracker
+  240  ls -la
+  241  cd .git
+  242  ls
+  243  cat refs
+  244  cd refs/
+  245  ls
+  246  cat heads
+  247  cd heads
+  248  ls
+  249  cd master
+  250  cat master
+  251  cd ../../
+  252  ls
+  253  cd HEAD 
+  254  ls
+  255  cat HEAD 
+  256  cd logs
+  257  cat logs
+  258  ls -l
+  259  ls -la
+  260  cd HEAD
+  261  ls
+  262  cat HEAD
+  263  cd ..
+  264  cd ../..
+  265  cd pal-tracker
+  266  pdw
+  267  pwd
+  268  cf create-space -h
+  269  cf create-space review
+  270  cf domains -h
+  271  cf domains
+  272  pwd
+  273  cd ../as*
+  274  pwd
+  275  ./gradlew cloudNativeDeveloperReviewPipeline -PreviewUrl=https://pal-tracker-shovan-sjm.apps.pikes.pal.pivotal.io/
+  276  git status
+  277  pwd
+  278  cd w
+  279  cd workspace/assignment-submission/
+  280  pwd
+  281  ./gradlew cloudNativeDeveloperSimpleApp -PserverUrl=http://pal-tracker-happy-bat.apps.pikes.pal.pivotal.io/
+  282  history > hist01
+  283  pwd
+  284  cd..
+  285  cd ..
+  286  pwd
+  287  ls -l
+  288  cd pal-tracker
+  289  pwd
+  290  git cherry-pick deployment-start
+  291  git status
+  292  git add -N .
+  293  git status
+  294  git add -p
+  295  git statuis
+  296  git status
+  297  vi .gitignore
+  298  git status
+  299  vi .gitignore 
+  300  git status
+  301  git rm out
+  302  git rm out -r
+  303  git status
+  304  rm -rf out
+  305  git status
+  306  git reset out
+  307  git reset out/*
+  308  git status
+  309  git add -A
+  310  git status
+  311  git commit -m"hello world initial changes"
+  312  set -o vi
+  313  git config --global user.email "shovan.biswas@accenture.com"
+  314  git config --global user.email "Shovan Biswas"
+  315  git config --global user.email "shovan.biswas@accenture.com"
+  316  git config --global user.name "Shovan Biswas"
+  317  git commit -m"hello world initial changes"
+  318  cf env pal-tracker
+  319  pwd
+  320  git cherry-pick deployment-start
+  321  ls -l
+  322  ls -l his*
+  323  ls -l ..
+  324  history > his02
+  325  find / -name "his*" -print 2> /dev/null
+  326  find / -name "hi*" -print 2> /dev/null
+  327  find / -name "his*" -print 2> /dev/null
+  328  pwd
+  329  cd ..
+  330  ls -l
+  331  cd -
+  332  pwd
+  333  pwd
+  334  ls -l\
+  335  ls -l
+  336  vi his02
+  337  pwd
+  338  cd build
+  339  cd libs
+  340  ls -l
+  341  pwd
+  342  l s-l
+  343  ls -l
+  344  ls -l
+  345  pwd
+  346  ls -l
+  347  git status
+  348  git push -u origin master --tag
+  349  git pwd
+  350  ls -l
+  351  pwd
+  352  ls -l
+  353  cd w*
+  354  pwd
+  355  ls -l
+  356  cd his*
+  357  ls -l
+  358  cat history_cf.sort
+  359  ls
+  360  pwd
+  361  cd ..
+  362  ls
+  363  cd pal-tracker
+  364  ls
+  365  ./gradlew clean build
+  366  cf target
+  367  cf target -s review
+  368  cf push -f manifest.yml 
+  369  cd ../assignment-submission/
+  370  ./gradlew cloudNativeDeveloperRest -PserverUrl=http://pal-tracker-shovan-sjm.apps.pikes.pal.pivotal.io
+  371  history
+  372  mysql -v
+  373  mysql -v
+  374  mysql -uroot
+  375  mysql -uroot
+  376  pwd
+  377  cd ../pa*
+  378  pwd
+  379  ls -l
+  380  ls -la
+  381  git cherry-pick migration-start
+  382  ls -l
+  383  ls -l scripta
+  384  set -o vi
+  385  ls -l scripts
+  386  vi ./scr*/*
+  387  mkdir databases
+  388  mkdir -p databases/tracker
+  389  ls -l dat*
+  390  cd dat*/tra*
+  391  pwd
+  392  ls -l 
+  393  vi create_databases.sql
+  394  ls -l
+  395  vi migrations/V1__initial_schema.sql
+  396  ls -l
+  397  pwd
+  398  mkdir migrations
+  399  cd mi*
+  400  vi V1__initial_schema.sql
+  401  cat V1__initial_schema.sql 
+  402  set -o vi
+  403  vi *
+  404  cat V4__initial_schema.sql 
+  405  ls
+  406  pwd
+  407  cd ../../..
+  408  pwd
+  409  mysql -uroot < databases/tracker/create_databases.sql
+  410  mysql -uroot
+  411  flyway -url="jdbc:mysql://localhost:3306/tracker_dev" -locations=filesystem:databases/tracker clean migrate
+  412  mysql
+  413  mysql -uroot
+  414  pwd
+  415  flyway -url="jdbc:mysql://localhost:3306/tracker_dev" -locations=filesystem:databases/tracker clean migrate
+  416  mysql -uroot
+  417  flyway -url="jdbc:mysql://localhost:3306/tracker_dev?serverTimezone=UTC" -locations=filesystem:databases/tracker clean migrate
+  418  flyway -url="jdbc:mysql://localhost:3306/tracker_test" -locations=filesystem:databases/tracker clean migrate
+  419  Use the cf marketplace command to find a MySQL database service on your Pivotal Cloud Foundry installation. use the cf create-service command to create an instance of this service named tracker-database in the review space.
+  420  Bind the service instance to your application with the cf bind-service command.
+  421  This instructs Cloud Foundry to provide your application with the connection information for the MySQL database you created earlier. This is given to your application in the VCAP_SERVICES environment variable.
+  422  Take a look at the updated .travis.yml file
+  423  The cherry pick you performed at the beginning of this lab brought in changes to your .travis.yml file which run a migrate-databases.sh script. This script opens an SSH tunnel to your Cloud Foundry database and performs migrations.
+  424  The database instance that your application The database instance that your application The database instance that your application The database instance that your application The database instance that your application The daFlyThe database instance that your application The database instance that your application The database instance that your application The database instance that your application The database instance that your application TtionThe database instance that your application The database instance that your aebuiThe database instance that your application The database instance that your application The database instance that your application The database instance that your application The database instance that your tasThe database instance that your applicatio/grThe database instance that your application The database instance that your application The database instance that your application The database instance that your application The database instance that your applica
+  425  clear
+  426  flyway -url="jdbc:mysql://localhost:3306/tracker_test" -locations=filesystem:databases/tracker clean migrate
+  427  Use the cf marketplace command to find a MySQL database service on your Pivotal Cloud Foundry installation. use the cf create-service command to create an instance of this service named tracker-database in the review space.
+  428  Bind the service instance to your application with the cf bind-service command.
+  429  This instructs Cloud Foundry to provide your application with the connection information for the MySQL database you created earlier. This is given to your application in the VCAP_SERVICES environment variable.
+  430  Take a look at the updated .travis.yml file
+  431  The cherry pick you performed at the beginning of this lab brought in changes to your .travis.yml file which run a migrate-databases.sh script. This script opens an SSH tunnel to your Cloud Foundry database and performs migrations.
+  432  The database instance that your application has access to is protected by a firewall so you will not be able to connect to it directly. Instead, you can open a SSH tunnel which will use your application as a proxy so that the FlyThe database instance that your application has access to is protected by a firewall so you will not be able to connect to it directly. Instead, you can open a SSH tunnel which will use your application as a proxy so thattionThe database instance that your application has access to is protected by a rebuiThe database instance that your application has access to is protected by a firewall so you will not be able to connect to it directly. Instead, you can open a SSH tunnel which will use your application as a tasThe database instance that your applicati./grThe database instance that your application has access to is protected by a firewall so you will not be able to connect to it directly. Instead, you can open a SSH tunnel which will use your application as a proxy so that the Flnds a
+  433  clear
+  434  flyway -url="jdbc:mysql://localhost:3306/tracker_test?serverTimezone=UTC" -locations=filesystem:databases/tracker clean migrate
+  435  mysql -u tracker
+  436  mysql -u tracker
+  437  cd ../assignment-submission/
+  438  ./gradlew cloudNativeDeveloperDatabaseMigrations -PserverUrl=https://pal-tracker-shovan-sjm.apps.pikes.pal.pivotal.io
+  439  cf services
+  440  pwd
+  441  cd ..
+  442  pwd
+  443  ls -l
+  444  cd pal*
+  445  pwd
+  446  ls -l
+  447  git status
+  448  git cherry-pick jdbc-start
+  449  ls -l
+  450  ls
+  451  cd workspace/pal-tracker
+  452  ls
+  453  cf marketplace
+  454  cf create-service -h
+  455  cf create-service p-mysql tracker-database
+  456  cf create-service p-mysql tracker-database
+  457  clear
+  458  clear
+  459  cf create-service p-mysql tracker-database
+  460  cf space
+  461  cf space
+  462  cf space review
+  463  cf create-space p-mysql tracker-database
+  464  cf bind-service
+  465  cf -h
+  466  cf apps
+  467  set -o vi
+  468  cf bind-service pal-tracker tracker-database
+  469  cf service
+  470  cf -h
+  471  cf service
+  472  cf service tracker-database
+  473  cf create-service silver -mysql tracker-database
+  474  cf create-service p-mysql silver tracker-database
+  475  cf marketplace
+  476  cf create-service p-mysql 100mb tracker-database
+  477  cf bind-service pal-tracker tracker-database
+  478  ls
+  479  vi .travis.yml 
+  480  git status
+  481  git add .
+  482  git status
+  483  git commit -m "adding databases"
+  484  git push
+  485  mysql -u tracker
+  486  ls
+  487  cd workspace/pal-tracker
+  488  ./gradlew clean test
+  489  ls
+  490  export SPRING_DATASOURCE_URL="jdbc:mysql://localhost:3306/tracker_test?user=tracker&useSSL=false&useTimezone=true&serverTimezone=UTC&useLegacyDatetimeCode=false"
+  491  echo $SPRING_DATASOURCE_URL
+  492  ps
+  493  sh
+  494  idea .
+  495  idea .
+  496  ps
+  497  .idea
+  498  . idea
+  499  idea .
+  500  /Applications/IntelliJ IDEA 10.app/Contents/MacOS/idea .
+  501  ls
+  502  cd workspace/pal-tracker
+  503  history
+  504  export SPRING_DATASOURCE_URL="jdbc:mysql://localhost:3306/tracker_test?user=tracker&useSSL=false&useTimezone=true&serverTimezone=UTC&useLegacyDatetimeCode=false"
+  505  idea .
+  506  /Applications/IntelliJ IDEA 10.app/Contents/MacOS/idea .
+  507  /Applications/IntelliJ IDEA CE.app/Contents/MacOS/idea .
+  508  /Applications/"IntelliJ IDEA CE.app"/Contents/MacOS/idea .
+  509  /Applications/"IntelliJ IDEA CE.app" .
+  510  /Applications/"IntelliJ IDEA CE.app".
+  511  /Applications/"IntelliJ IDEA CE.app"/Contents/MacOS/idea 
+  512  export SPRING_DATASOURCE_URL="jdbc:mysql://localhost:3306/tracker_test?user=tracker&useSSL=false"
+  513  /Applications/"IntelliJ IDEA CE.app"/Contents/MacOS/idea 
+  514  pwd
+  515  history > hist10
